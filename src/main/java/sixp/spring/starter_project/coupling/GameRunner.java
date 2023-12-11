@@ -1,8 +1,10 @@
-package sixp.spring.starter_project;
+package sixp.spring.starter_project.coupling;
 
 public class GameRunner {
-    MarioGame game;
-    public GameRunner(MarioGame game) {
+//    MarioGame game;
+
+   GamingConsole game;
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
