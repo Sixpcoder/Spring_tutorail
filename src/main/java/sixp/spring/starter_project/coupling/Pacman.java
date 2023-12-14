@@ -1,5 +1,8 @@
 package sixp.spring.starter_project.coupling;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Pacman implements  GamingConsole {
     @Override
     public void up() {

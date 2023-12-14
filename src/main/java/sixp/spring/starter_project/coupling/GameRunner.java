@@ -1,5 +1,8 @@
 package sixp.spring.starter_project.coupling;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 //    MarioGame game;
 
@@ -14,7 +17,6 @@ public class GameRunner {
         game.left();
         game.up();
         game.right();
-
 
     }
 }
